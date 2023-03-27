@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context=".RiconoscitoreActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/inputImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prendi immagine"
+            app:icon="@drawable/ic_baseline_add_a_photo_24"
+            app:cornerRadius="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/riconosciBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Riconosci testo"
+            app:icon="@drawable/ic_baseline_document_scanner_24"
+            app:cornerRadius="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_image_24"
+                android:adjustViewBounds="true"
+                app:strokeWidth="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Testo riconosciuto (per salvare lasciare solo: Tipo Importo)"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/recognizedTestEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:inputType="text"
+                android:importantForAutofill="no" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/salvaBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salva testo"
+                app:cornerRadius="5dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486003327455",
+    "project_id": "app-coinquilini",
+    "storage_bucket": "app-coinquilini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486003327455:android:01b59c8cb882e2b140c46a",
+        "android_client_info": {
+          "package_name": "com.example.coinquilini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486003327455-5o0o68erkc6gtafmkvkv98qu739vno18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDAJZ4XG1rzF2EsXlmZKhvYnRyfCyrnho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486003327455-5o0o68erkc6gtafmkvkv98qu739vno18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

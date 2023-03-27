@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context=".NuovaCasaActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ombre"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".NuovaCasaActivity">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/home"
+                tools:ignore="ImageContrastCheck" />
+
+            <EditText
+                android:id="@+id/nome_casa"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/nome_casa"
+                android:inputType="text"
+                android:textStyle="bold"
+                android:textColorHint="#5C6BC0"
+                android:textColor="#5C6BC0"
+                android:autofillHints="name" />
+
+            <Button
+                android:id="@+id/registra_casa"
+                android:layout_width="180dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/registra_casa"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                tools:context=".NuovaCasaActivity">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:hint="@string/gia_registrato"
+                    android:textColorHint="#5C6BC0"/>
+
+                <TextView
+                    android:id="@+id/casa_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:hint="@string/login"
+                    android:textColorHint="#5C6BC0"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

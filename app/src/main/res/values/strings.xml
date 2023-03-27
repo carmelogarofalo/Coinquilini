@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Coinquilini</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nome_casa">Nome casa</string>
+    <string name="ricordami">Ricordami</string>
+    <string name="non_registrato">Non Registrato?</string>
+    <string name="registrati">REGISTRATI</string>
+    <string name="registra_utente">Registrati</string>
+    <string name="conferma_password">Conferma Password</string>
+    <string name="gia_registrato">Gia Registrato?</string>
+    <string name="login">LOGIN</string>
+    <string name="login_utente">Login</string>
+    <string name="tentativi">Tentativi rimasti:</string>
+    <string name="btn_logout">Logout</string>
+    <string name="nuova_casa">NUOVA CASA</string>
+    <string name="accedi">Accedi alla casa</string>
+    <string name="oppure">OPPURE</string>
+    <string name="creane">Creane una nuova</string>
+    <string name="registra_casa">Registra casa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="foto">foto</string>
+    <string name="trova">Trova</string>
+    <string name="home">HOME</string>
+    <string name="mappa">MAPPA</string>
+    <string name="casa">Nome casa: </string>
+    <string name="coinquilini">Coinquilini: </string>
+    <string name="bollette_registrate">Bollette registrate</string>
+</resources>

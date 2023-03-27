@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MapsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btn_tabbacchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="55dp"
+            android:src="@drawable/ic_baseline_store_24" />
+
+        <ImageButton
+            android:id="@+id/btn_banche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="55dp"
+            android:src="@drawable/ic_baseline_account_balance_24" />
+
+        <ImageButton
+            android:id="@+id/btn_poste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="55dp"
+            android:src="@drawable/ic_baseline_local_post_office_24" />
+
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout" />
+
+</RelativeLayout>
