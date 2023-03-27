@@ -1,7 +1,7 @@
 # Coinquilini
 
 ## Introduzione
-Quest’app è pensata per tutte quelle persone che devono confrontarsi con un’esperienza di home sharing.
+Quest’app è un progetto per un esame universitario ed è pensata per tutte quelle persone che devono confrontarsi con un’esperienza di home sharing.
 Permette di creare una casa virtuale oppure nel caso in cui qualcun altro lo abbia già fatto, di loggarvici. 
 Una volta dentro sarà possibile effettura delle semplici operazioni come quella di aggiungere 
 una bolletta oppure mostrare dove poterle eventualmente pagare. 
